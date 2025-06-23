@@ -2,13 +2,8 @@
 # Tip Calculator
 
 print("Welcome to the tip calculator!")
-bill = float(input("What was the total bill? ₹"))
-tip_percent = int(input("How much tip would you like to give? 10, 12, or 15?\n"))
-people = int(input("How many people to split the bill?\n"))
-
-tip_amount = bill * (tip_percent / 100)
-total_bill = bill + tip_amount
-share_per_person = total_bill / people
-
-final_amount = "{:.2f}".format(share_per_person)
-print(f"Each person should pay: ₹{final_amount}")
+bill = float(input("What was the total bill? $"))
+tip = int(input("What percentage tip would you like to give? 10 12 15 "))
+people = int(input("How many people to split the bill? "))
+bill_with_tip = tip/100 * bill+bill
+print(bill_with_tip)
