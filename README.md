@@ -1,6 +1,6 @@
 # 💸 Tip Calculator – Python Project
 
-Hi! I'm Rasi Shil 👋 and this is one of my beginner Python projects — a simple **Tip Calculator** that helps you split the bill and calculate how much each person should pay, including the tip.
+Hi! I'm Rasi Shil 👋 and this is one of my beginner Python projects, a simple **Tip Calculator** that helps you split the bill and calculate how much each person should pay, including the tip.
 
 This project gave me hands-on practice with variables, user input, basic math, and working with floats in Python.
 
